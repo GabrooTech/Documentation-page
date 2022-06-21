@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+body{
+	font-family: 'Architects Daughter';
+	margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+    background-color: #c9ffea;
+}
+.WDD{
+    color: black;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 500;
+}
+.nav-ul{
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.nav-li{
+    color: #4d4e53;
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+.nav-link{
+    display: block;
+    padding: 10px 30px;
+    color: #4d4e53;
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer; 
+}
+.main-header{
+    font-size: 30px;
+}
+#main-doc{
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+article{
+    margin: 15px;
+    font-size: 25px;
+}
+.container{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+    height: auto;
+}
+.frameworks{
+    margin-left: 100px;
+    color: #516eff;
+}
+.color-1{
+    color: gold;
+}
+.color-2{
+    color: darkgoldenrod;
+}
+.color-3{
+    color: #008742;
+}
+.color-4{
+    color: rebeccapurple;
+}
+.color-5{
+    color: #ff6c6c;
+}
+.color-6{
+    color: #bd4600;
+}
+.color-7{
+    color: rgb(241, 18, 156);
+}
+@media(max-width: 815px){
+    #navbar {
+        width: 100%;
+        max-height: 264px;
+        top: 0;
+        padding: 0;
+        margin: 0;
+        border: none;
+        z-index: 1;
+        border-bottom: 2px solid;
+        position: relative;
+        margin-top: -10px;
+    }
+    #navbar ul {
+        border: 1px solid;
+        height: 207px;
+    }
+    #main-doc {
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+}
+@media(max-width: 348px){
+    #navbar{
+        max-height: 303px;
+    }
+}
+@media(max-width: 250px){
+    .WDD{
+        margin-left: -20px;
+    }
+    .frameworks{
+        margin-left: -50px;
+    }
+}
